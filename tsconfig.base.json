@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@trivia/login": ["libs/login/src/index.js"],
+      "@trivia/profile": ["libs/profile/src/index.js"],
+      "@trivia/user-list": ["libs/user-list/src/index.js"],
+      "@trivia/ws-utils": ["libs/ws-utils/src/index.js"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
