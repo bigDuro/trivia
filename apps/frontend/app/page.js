@@ -1,5 +1,3 @@
-import { UserList } from '@trivia/user-list';
-import { Profile } from '@trivia/profile';
 import styles from './page.module.scss';
 export default async function Index() {
   /*
@@ -9,8 +7,7 @@ export default async function Index() {
    */
   return (
     <div className={styles.page}>
-      <Profile/>
-      <UserList/>
+      home page
     </div>
   );
 }
